@@ -1,6 +1,6 @@
 from flask import Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 
@@ -8,6 +8,6 @@ def hello_world():
 
 return 'GreyMatters'
 
-if f_name_ == " main_":
+if__name_ == "__main__":
 
 app.run()
